@@ -1,0 +1,93 @@
+@media screen and (min-width: 375px){
+ header {
+    
+    padding: 2rem 1rem;
+ }
+    .login{
+    display: none;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav#botoneraMovil{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: -100%;
+    right: 1;
+    transition: left .5s;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: hsl(255, 11%, 22%);
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    line-height: 2.5rem;
+}
+nav#botoneraMovil .menu__list__item:hover{
+    background-color: hsl(180, 66%, 49%);
+    align-content: center;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    max-width: 30%;
+}
+input#botonMovil{
+    display: none;
+}
+label#labelMovil span{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 2rem;
+    right: 1rem;
+    background: url(./images/menu-line1.png) no-repeat;
+}
+label#labelMovil span:hover{
+    background: url(./images/menu-line2.png) no-repeat;
+}
+input#botonMovil:checked ~ nav#botoneraMovil{
+    left: 2rem;
+    right: 1rem;
+    top: 4rem;
+    
+}
+.main__1{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.contenido__1 h1{
+        font-weight: 700 ;
+        font-size: 3rem ;
+        margin: 1.5rem;
+
+}
+.contenido__1 p{
+    color: hsl(0, 0%, 75%);
+    margin: 1rem 2rem 2.5rem  2rem;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+}
+.get__started{
+    border-radius: 2rem ;
+    color: #fff;
+    background: hsl(180, 66%, 49%);
+    border:1px solid hsl(180, 66%, 49%);
+    box-sizing: border-box;
+    max-width: 20rem;
+    height: 3.5rem;
+    font-size: 22px;
+    font-weight: 700;
+}
+.get__started{
+    opacity: .5;
+}
+.imagen__1 img{
+    min-width: 100px;
+    max-width: 100vw;
+   margin-bottom: 2rem;
+}
+}
+    

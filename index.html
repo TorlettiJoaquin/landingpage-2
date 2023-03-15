@@ -7,7 +7,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
-
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="desktop.css">
+  <link rel="stylesheet" href="mobile.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -27,20 +29,41 @@
 
 </head>
 <body>
+<header>
+  <div class="header__nav">
+    <img src="./images/logo.svg" alt="logo de la empresa">
+    <div id="menuMovil">
+      <input type="checkbox" id="botonMovil">
+            <label for="botonMovil" id="labelMovil"><span></span></label>
+            <nav id="botoneraMovil">
+              <ul class="menu__list">
+                <li class="menu__list__item"><a href="#">Features</a></li>
+                <li class="menu__list__item"><a href="#">Pricing</a></li>
+                <li class="menu__list__item"><a href="#">Resources</a></li>
+              </ul>
+            </nav>
+    </div>
+  </div>
+  <div class="login">
+    <button>Login</button>
+    <button>Sign Up</button>
+  </div>
+</header>
+  
+<main>
+  <section class="main__1">
+    <div class="contenido__1">
+      <h1>More than just shorter links</h1>
+      <p>Build your brand’s recognition and get detailed insights 
+        on how your links are performing.</p>
+      <button class="get__started">Get Started</button>
+    </div>
+    <div class="imagen__1"><img src="./images/illustration-working.svg" alt="imagen de una persona trabajando en una computadora de escritorio"></div>
+  </section>
 
-  Features
-  Pricing
-  Resources
 
-  Login
-  Sign Up
+</main>
 
-  More than just shorter links
-
-  Build your brand’s recognition and get detailed insights 
-  on how your links are performing.
-
-  Get Started
   
   Shorten a link here...
 
