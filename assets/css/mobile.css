@@ -1,4 +1,31 @@
 /* Medida mobile 375px segun proyecto */
 @media screen and (max-width: 375px) {
     
+    /* footer */
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 0;
+    }
+
+    .footer__logo {
+        padding: 1rem 0;
+    }
+
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        gap: 2rem;
+    }
+
+    .footer__links ul {
+        align-items: center;
+    }
+    
+    /* end footer */
 }
