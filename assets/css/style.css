@@ -12,6 +12,92 @@
     --color-neutral-500: hsl(260, 8%, 14%);
 }
 
+
 body {
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
 }
+
+
+/* footer */
+
+footer {
+    background-color: var(--color-neutral-500);
+    color: var(--color-neutral-100);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3.5rem 2rem 4rem 2rem;
+
+}
+
+.footer__logo {
+    max-width: 20vw;
+    width: 100%;
+    display: flex;
+}
+
+.logo--img {
+    height: 20%;
+    display: flex;
+}
+
+.footer__logo-img {
+    filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(149deg) brightness(105%) contrast(101%);
+}
+
+.footer__links {
+    display: flex;
+    justify-content: space-between;
+    max-width: 45vw;
+    width: 100%;
+    height: 150px;
+}
+
+.footer__links h3 {
+    font-weight: 700;
+}
+
+A
+
+.footer__links li {
+    color: var(--color-neutral-300);
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 2rem;
+}
+
+.resources {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 2rem;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 2rem;
+}
+
+.socials__icons {
+    max-width: 10vw;
+    width: 100%;
+}
+
+.socials__icons ul{
+    display: flex;
+    justify-content: space-between;
+}
+.socials__icons a {
+    color: var(--color-neutral-100);
+}
+
+
+
+/* end footer */
