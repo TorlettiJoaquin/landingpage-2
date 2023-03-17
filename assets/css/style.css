@@ -20,8 +20,106 @@ body {
 }
 a{
     text-decoration: none;
+    list-style: none;
 }
-
+a:visited {
+    text-decoration: none;
+    color: var(--color-neutral-100)
+}
+@media screen and (min-width: 768px) {
+/* header */
+    #menuMovil{
+       display: none;
+    }
+    .header__nav{
+        
+        width: 100%;
+        display: flex;
+    }
+    .header__nav img{
+        margin: 2rem 3rem;
+    }
+    .menu__2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    .menu__2 .menu__list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .menu__2 .menu__list li{
+        margin-right: 1rem;
+    }
+    .menu__2 .menu__list a{
+        color: var(--color-neutral-300);
+    }
+    .menu__2 .menu__list a:hover{
+        color: var(--color-neutral-500);
+    }
+    .menu__lista2{
+        display: flex;
+        flex-direction: row;
+    }
+    .menu__2--btn{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 2rem;
+            }
+    .btn1, .btn2{
+        background: var(--color-neutral-100);
+        border: none;
+        color: var(--color-neutral-300);
+        padding: 1rem;
+    }
+    .btn1:hover, .btn2:hover{
+        color: var(--color-neutral-100);
+        background: var(--color-primary);
+        border-radius: 5rem;
+        width: 40%;
+        opacity: .5;
+    }
+    /* main star */
+    .main__1{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        margin-left: 1.6rem;
+        margin-bottom: 2rem;
+    }
+    .imagen__1 img{
+        max-width: 10vw;
+        overflow: hidden;
+    }
+    .contenido__1 h1{
+        font-weight: 700 ;
+        font-size: 2rem ;
+        margin: 1.5rem;
+        color: var(--color-neutral-500);
+}
+    .contenido__1 p{
+    color: var(--color-neutral-300);
+    margin: 1rem 2rem 2.5rem  2rem;
+    font-size: .7rem;
+    line-height: 2.5rem;
+}
+    .get__started{
+    border-radius: 2rem ;
+    color: #fff;
+    background: hsl(180, 66%, 49%);
+    border:1px solid hsl(180, 66%, 49%);
+    box-sizing: border-box;
+    max-width: 20rem;
+    min-width: 15rem;
+    height: 3.5rem;
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 1rem;
+    }
+    .get__started:hover{
+        opacity: .5;
+    }
 /* footer */
 
 footer {
@@ -100,6 +198,6 @@ A
     color: var(--color-neutral-100);
 }
 
-
+}
 
 /* end footer */
