@@ -7,9 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="desktop.css">
-  <link rel="stylesheet" href="mobile.css">
+ 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -31,7 +29,20 @@
 <body>
 <header>
   <div class="header__nav">
-    <img src="./images/logo.svg" alt="logo de la empresa">
+    <img src="./assets/images/logo.svg" alt="logo de la empresa">
+    <div class="menu__2">
+        <div class="menu__lista2">
+             <ul class="menu__list">
+                <li class="menu__list__item"><a href="#">Features</a></li>
+                <li class="menu__list__item"><a href="#">Pricing</a></li>
+                <li class="menu__list__item"><a href="#">Resources</a></li>
+             </ul>
+        </div>
+        <div class="menu__2--btn">
+            <button class="btn1">Login</button>
+             <button class="btn2">Sing up</button>
+        </div>
+    </div>
     <div id="menuMovil">
       <input type="checkbox" id="botonMovil">
             <label for="botonMovil" id="labelMovil"><span></span></label>
@@ -41,12 +52,13 @@
                 <li class="menu__list__item"><a href="#">Pricing</a></li>
                 <li class="menu__list__item"><a href="#">Resources</a></li>
               </ul>
+              <hr>
+              <ul>
+                <li class="menu__list__item"><a href="#">Login</a></li>
+                <li class="menu__list__item"><a href="#"><button>Sing up</button> </a></li>
             </nav>
-    </div>
-  </div>
-  <div class="login">
-    <button>Login</button>
-    <button>Sign Up</button>
+            
+     </div>
   </div>
 </header>
   
@@ -58,7 +70,7 @@
         on how your links are performing.</p>
       <button class="get__started">Get Started</button>
     </div>
-    <div class="imagen__1"><img src="./images/illustration-working.svg" alt="imagen de una persona trabajando en una computadora de escritorio"></div>
+    <div class="imagen__1"><img src="./assets/images/illustration-working.svg" alt="imagen de una persona trabajando en una computadora de escritorio"></div>
   </section>
 
 
