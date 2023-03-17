@@ -66,21 +66,28 @@ a:visited {
         display: flex;
         justify-content: flex-end;
         margin-right: 2rem;
-        
     }
-    .btn1, .btn2  {
+    .btn1, .btn2{
+        background: var(--color-neutral-300);
+        border: none;
+        background: var(--color-neutral-100);
+        color: var(--color-neutral-300);
+        font-weight: 500;
+    }
+    .btn1:hover, .btn2:hover  {
         background: var(--color-primary);
         border: none;
         border-radius: 5rem;
         color: var(--color-neutral-100);
         padding: 1rem;
-        width: 40%;
+        width: 20%;
     }
     
     /* main star */
     .main__1{
         display: flex;
         flex-direction: row;
+        
         align-items: center;
         margin-left: 1.6rem;
         margin-bottom: 2rem;
