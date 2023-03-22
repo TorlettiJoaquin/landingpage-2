@@ -143,3 +143,137 @@
     
     /* end footer */
 }
+
+/*advanced start*/
+.advanced {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: #F0F1F6;
+}
+
+.advanced__box {
+    position: relative;
+}
+
+.advanced__box--noBackground {
+    background-color: transparent;
+    margin-bottom: 5rem;
+}
+
+ .advanced__box__paragraph--title {
+    color: #C0C0C8;
+}
+
+.advanced__box__title--principal {
+    font-size: 1.3rem;
+}
+
+.advanced__icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: hsl(257, 27%, 26%);
+    color: hsl(180, 66%, 49%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    position: absolute;
+    left: calc(50% - 35px);
+    top: -35px;
+}
+
+.advanced__text {
+    padding: 4rem 0 2rem;
+    background-color: #fff;
+    
+}
+
+.advanced__box__title {
+    color: hsl(250, 27%, 26%);
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.advanced__box__paragraph {
+    color: hsl(250, 6%, 80%);
+    padding: 0 1.5rem;
+    line-height: 1.3;
+}
+
+.advanced__separator {
+    width: 0.3rem;
+    height: 5rem;
+    background-color: hsl(180, 66%, 49%);
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .advanced {
+        margin: 5rem auto;
+        padding: 10rem;
+    }
+
+    .advanced__box {
+        width: 26%;
+    }
+
+    .advanced__box--noBackground {
+        width: 50%;
+        margin: 0 auto 5rem;
+    }
+
+    .advanced__box__title {
+        font-size: 1.5rem;
+        padding-left: 1.3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .advanced__box__title--principal {
+        font-size: 2.3rem;
+        line-height: 1.7;
+    }
+
+    .advance__container {
+        display: flex;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .advanced__icon {
+        left: 30px;
+        margin-bottom: 2rem;
+    }
+
+    .advance__content__separator {
+        display: flex;
+        align-items: center;
+    }
+
+    .advanced__separator {
+        width: 6rem;
+        height: 0.3rem;
+    }
+
+    .advanced__separator--modified {
+        margin-bottom: 4rem;
+    }
+
+    .advanced__box--flex2 {
+        margin: 2rem 0 0;
+    }
+
+    .advanced__box--flex3 {
+        margin: 4rem 0 0;
+    }
+
+    .advanced__box__paragraph {
+        font-size: 1.1rem;
+        font-weight: 300;
+        line-height: 1.5;
+        padding: 0 1rem;
+    }
+}
+
+/*advanced end*/

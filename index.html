@@ -1,105 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
- 
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 
   <!-- styles -->
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/mobile.css">
-  
+
   <!-- fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
 
   <!-- font awesome icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
 
 </head>
+
 <body>
-<header>
-  <div class="header__nav">
-    <img src="./assets/images/logo.svg" alt="logo de la empresa">
-    <div class="menu__2">
+  <header>
+    <div class="header__nav">
+      <img src="./assets/images/logo.svg" alt="logo de la empresa">
+      <div class="menu__2">
         <div class="menu__lista2">
-             <ul class="menu__list">
-                <li class="menu__list__item"><a href="#">Features</a></li>
-                <li class="menu__list__item"><a href="#">Pricing</a></li>
-                <li class="menu__list__item"><a href="#">Resources</a></li>
-             </ul>
+          <ul class="menu__list">
+            <li class="menu__list__item"><a href="#">Features</a></li>
+            <li class="menu__list__item"><a href="#">Pricing</a></li>
+            <li class="menu__list__item"><a href="#">Resources</a></li>
+          </ul>
         </div>
         <div class="menu__2--btn">
-             <button class="btn1">Login</button>
-             <button class="btn2">Sing up</button>
+          <button class="btn1">Login</button>
+          <button class="btn2">Sing up</button>
         </div>
+      </div>
+      <div id="menuMovil">
+        <input type="checkbox" id="botonMovil">
+        <label for="botonMovil" id="labelMovil"><span></span></label>
+        <nav id="botoneraMovil">
+          <ul class="menu__list">
+            <li class="menu__list__item"><a href="#">Features</a></li>
+            <li class="menu__list__item"><a href="#">Pricing</a></li>
+            <li class="menu__list__item"><a href="#">Resources</a></li>
+          </ul>
+          <hr>
+          <ul>
+            <li class="menu__list__item"><a href="#"><button>Login</button></a></li>
+            <li class="menu__list__item"><a href="#"><button>Sing up</button></a></li>
+        </nav>
+
+      </div>
     </div>
-    <div id="menuMovil">
-      <input type="checkbox" id="botonMovil">
-            <label for="botonMovil" id="labelMovil"><span></span></label>
-            <nav id="botoneraMovil">
-              <ul class="menu__list">
-                <li class="menu__list__item"><a href="#">Features</a></li>
-                <li class="menu__list__item"><a href="#">Pricing</a></li>
-                <li class="menu__list__item"><a href="#">Resources</a></li>
-              </ul>
-              <hr>
-              <ul>
-                <li class="menu__list__item"><a href="#"><button>Login</button></a></li>
-                <li class="menu__list__item"><a href="#"><button>Sing up</button></a></li>
-            </nav>
-            
-     </div>
-  </div>
-</header>
-  
-<main>
-  <section class="main__1">
-    <div class="contenido__1">
-      <h1>More than just shorter links</h1>
-      <p>Build your brand’s recognition and get detailed insights 
-        on how your links are performing.</p>
-      <button class="get__started">Get Started</button>
-    </div>
-    <div class="imagen__1"><img src="./assets/images/illustration-working.svg" alt="imagen de una persona trabajando en una computadora de escritorio"></div>
-  </section>
+  </header>
+
+  <main>
+    <section class="main__1">
+      <div class="contenido__1">
+        <h1>More than just shorter links</h1>
+        <p>Build your brand’s recognition and get detailed insights
+          on how your links are performing.</p>
+        <button class="get__started">Get Started</button>
+      </div>
+      <div class="imagen__1"><img src="./assets/images/illustration-working.svg"
+          alt="imagen de una persona trabajando en una computadora de escritorio"></div>
+    </section>
 
 
-</main>
+  </main>
 
-  
+
   Shorten a link here...
 
   Shorten It!
+  <section class="advanced">
 
-  Advanced Statistics
+    <div class="advanced__box advanced__box--noBackground">
+      <h2 class="advanced__box__title advanced__box__title--principal">Advanced Statistics</h2>
+      <p class="advanced__box__paragraph advanced__box__paragraph--title">
+        Track how your links are performing across the web with our
+        advanced statistics dashboard.
+      </p>
+    </div>
 
-  Track how your links are performing across the web with our 
-  advanced statistics dashboard.
+    <div class="advance__container">
 
-  Brand Recognition
+      <div class="advanced__box advanced__box--flex1">
+        <div class="advanced__icon"><i class="fa-solid fa-arrow-trend-up"></i></div>
+        <div class="advance__content__separator">
+          <div class="advanced__text">
+            <h3 class="advanced__box__title">Brand Recognition</h3>
+            <p class="advanced__box__paragraph">
+              Boost your brand recognition with each click. Generic links don’t
+              mean a thing. Branded links help instil confidence in your content.
+            </p>
+          </div>
+          <div class="advanced__separator"></div>
+        </div>
+      </div>
 
-  Boost your brand recognition with each click. Generic links don’t 
-  mean a thing. Branded links help instil confidence in your content.
+      <div class="advanced__box advanced__box--flex2">
+        <div class="advanced__icon"><i class="fa-solid fa-gauge"></i></div>
+        <div class="advance__content__separator">
+          <div class="advanced__text">
+            <h3 class="advanced__box__title">Detailed Records</h3>
+            <p class="advanced__box__paragraph">
+              Gain insights into who is clicking your links. Knowing when and where
+              people engage with your content helps inform better decisions.
+            </p>
+          </div>
+          <div class="advanced__separator advanced__separator--modified"></div>
+        </div>
+      </div>
 
-  Detailed Records
+      <div class="advanced__box advanced__box--flex3">
+        <div class="advanced__icon"><i class="fa-solid fa-pen-ruler"></i></div>
+        <div class="advanced__text">
+          <h3 class="advanced__box__title">Fully Customizable</h3>
+          <p class="advanced__box__paragraph">
+            Improve brand awareness and content discoverability through customizable
+            links, supercharging audience engagement.
+          </p>
+        </div>
+      </div>
+    </div>
 
-  Gain insights into who is clicking your links. Knowing when and where 
-  people engage with your content helps inform better decisions.
-
-  Fully Customizable
-
-  Improve brand awareness and content discoverability through customizable 
-  links, supercharging audience engagement.
+  </section>
 
   Boost your links today
 
@@ -111,7 +154,7 @@
       <div class="logo--img">
         <img class="footer__logo-img" src="assets/images/logo.svg" alt="logo">
       </div>
-          
+
     </div>
 
     <div class="footer__links">
@@ -142,7 +185,7 @@
           <li>Contact</li>
         </ul>
       </div>
-    </div>    
+    </div>
 
     <div class="socials__icons">
       <ul>
@@ -154,13 +197,14 @@
     </div>
 
   </footer>
-    
-  
-  
+
+
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
   <script src="script.js"></script>
 </body>
+
 </html>
